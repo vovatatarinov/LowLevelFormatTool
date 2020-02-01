@@ -1,0 +1,4 @@
+mov     ax, 0x0040
+mov     ds, ax
+movw     [0x0072], 0x0000
+jmp	0x0ffff:0x0000 
